@@ -2,6 +2,8 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const authenticate = require('./authMiddleware');
+import { inject } from "@vercel/analytics"
+
 
 dotenv.config();
 
