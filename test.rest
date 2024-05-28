@@ -1,0 +1,5 @@
+# curl http://localhost:3000/public
+
+curl -H "x-api-key: dave" http://localhost:3000/private
+
+# curl -H "x-api-key: dave" http://localhost:3000/users
